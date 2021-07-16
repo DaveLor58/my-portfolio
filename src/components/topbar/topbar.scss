@@ -26,6 +26,10 @@
         text-decoration: none;
         color: inherit;
         margin-right: 40px;
+        
+        &:hover{
+          color: red;
+        }
       }
 
       .itemContainer {

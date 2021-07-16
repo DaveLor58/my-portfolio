@@ -9,8 +9,9 @@ export default function Intro() {
     useEffect(() =>{
         init(textRef.current, {
             showCursor: true,
+            typeSpeed: 80,
             backDelay: 1500,
-            backSpeed: 60,
+            backSpeed: 50,
             strings: ["A College Student!", "An Aspiring Software Engineer!","A Programming Enthusiast!"],
         });
     },[]);
