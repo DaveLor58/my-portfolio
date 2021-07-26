@@ -21,14 +21,14 @@
       align-items: center;
 
       .logo {
-        font-size: 40px;
+        font-size: 35px;
         font-weight: 700;
         text-decoration: none;
         color: inherit;
         margin-right: 40px;
         
         &:hover{
-          color: red;
+          color: crimson;
         }
       }
 
@@ -37,6 +37,14 @@
         align-items: center;
         margin-left: 30px;
 
+        .iconContainer{
+          margin-right: 10px;
+        }
+
+        @include mobile{
+          display: none;
+        }
+        
         .icon {
           font-size: 18px;
           margin-right: 5px;
@@ -48,7 +56,6 @@
         }
       }
     }
-
     .right {
       .hamburger {
         width: 32px;

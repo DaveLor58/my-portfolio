@@ -7,6 +7,7 @@ import Contact from "./components/contact/Contact"
 import Menu from "./components/menu/Menu"
 import "./app.scss"
 import { useState } from "react";
+// will be used soon
 
 function App(){
     const [menuOpen, setMenuOpen] = useState(false);
@@ -17,9 +18,9 @@ function App(){
             <Menu menuOpen={menuOpen} setMenuOpen={setMenuOpen}/>
             <div className="sections">
                 <Intro />
-                <Portfolio />
-                <Works />
                 <About />
+                <Works />
+              {/*  <Portfolio />  WILL IMPLEMENT SOON!*/ } 
                 <Contact />
             </div>
         </div>   

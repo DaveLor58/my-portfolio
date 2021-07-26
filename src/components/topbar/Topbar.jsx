@@ -1,5 +1,6 @@
 import "./topbar.scss";
 import {Person, Mail} from "@material-ui/icons";
+import { SocialIcon } from 'react-social-icons';
 
 
 export default function Topbar({ menuOpen, setMenuOpen }) {
@@ -18,6 +19,15 @@ export default function Topbar({ menuOpen, setMenuOpen }) {
                         <Mail className="icon"/>
                         <span>davelor58@gmail.com</span>
                     </div>
+                    <div className="itemContainer">
+                        <div className="iconContainer">
+                            <SocialIcon url="https://www.linkedin.com/in/dave-lorenz-castillo-3b6b021aa/" style={{ height: 35, width:35}} target="_blank" rel="noopener noreferrer" />
+                        </div>
+                        <div className="iconContainer">
+                            <SocialIcon url="https://github.com/DaveLor58" style={{ height: 35, width:35}} target="_blank" rel="noopener noreferrer"/>
+                        </div>
+                    </div>
+
                 </div>
                 <div className="right">
                     <div className="hamburger" onClick={() => setMenuOpen(!menuOpen)}>
