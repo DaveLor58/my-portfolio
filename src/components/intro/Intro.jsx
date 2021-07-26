@@ -12,7 +12,7 @@ export default function Intro() {
             typeSpeed: 80,
             backDelay: 1500,
             backSpeed: 50,
-            strings: ["A College Student!", "An Aspiring Software Engineer!","A Programming Enthusiast!"],
+            strings: ["A College Student!", "An Aspiring Software Engineer!","A Programming Enthusiast!", "A Quick Learner!"],
         });
     },[]);
 

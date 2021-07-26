@@ -1,7 +1,7 @@
 import "./works.scss"
 import {ArrowForwardIos} from "@material-ui/icons";
 import { useState } from "react"; 
-import ReactPlayer from "react-player"
+//import ReactPlayer from "react-player"
 
 export default function Works() {
 
