@@ -2,7 +2,6 @@ import "./intro.scss"
 import {ExpandMore} from "@material-ui/icons";
 import { useEffect, useRef } from "react";
 import {init} from "ityped";
-import pic from "./myPic.png"
 export default function Intro() {
 
     const textRef = useRef();
@@ -21,12 +20,12 @@ export default function Intro() {
         <div className="intro" id="intro">
             <div className="left">
                 <div className="imgContainer">
-                    <img src={pic} alt=""/>
+                    <img src="./assets/myPic.png" alt=""/>
                 </div>
             </div>
             <div className="right">
                 <div className="wrapper">
-                    <h2>Hi There! I'm</h2>
+                    <h2>Hello There! I'm</h2>
                     <h1>Dave Lorenz Castillo,</h1>
                     <h3>
                         <span ref={textRef}></span>
